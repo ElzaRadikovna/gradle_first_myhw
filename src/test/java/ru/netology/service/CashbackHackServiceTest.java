@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class CashbackHackServiceTest {
     @Test
-    void cashbackIfOver1000() {
+   public void cashbackIfOver1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
 
@@ -17,19 +17,19 @@ public class CashbackHackServiceTest {
 
     }
     @Test
-    void cashbackIfUnder1000() {
+    public void cashbackIfUnder1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
 
-        int actual = cashbackHackService.remain(850);
-        int expected = 150;
+        int actual = cashbackHackService.remain(950);
+        int expected = 50;
 
         Assert.assertEquals(actual, expected);
 
 
     }
     @Test
-    void cashbackIfEqual1000() {
+    public void cashbackIfEqual1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
         int actual = cashbackHackService.remain(1000);
