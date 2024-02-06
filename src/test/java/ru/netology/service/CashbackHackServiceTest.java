@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CashbackHackServiceTest {
     @Test
-    void cashbackIfOver1000() {
+   public void cashbackIfOver1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
 
@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
 
     }
     @Test
-    void cashbackIfUnder1000() {
+    public void cashbackIfUnder1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
 
@@ -29,7 +29,7 @@ public class CashbackHackServiceTest {
 
     }
     @Test
-    void cashbackIfEqual1000() {
+    public void cashbackIfEqual1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
         int actual = cashbackHackService.remain(1000);
