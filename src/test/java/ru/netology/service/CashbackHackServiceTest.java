@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class CashbackHackServiceTest {
     @Test
-   public void cashbackIfOver1000() {
+    public void cashbackIfOver1000() {
 
         CashbackHackService cashbackHackService = new CashbackHackService();
 
@@ -16,6 +16,7 @@ public class CashbackHackServiceTest {
 
 
     }
+
     @Test
     public void cashbackIfUnder1000() {
 
@@ -28,6 +29,7 @@ public class CashbackHackServiceTest {
 
 
     }
+
     @Test
     public void cashbackIfEqual1000() {
 
@@ -36,7 +38,6 @@ public class CashbackHackServiceTest {
         int expected = 0;
 
         Assert.assertEquals(actual, expected);
-
 
 
     }
