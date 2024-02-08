@@ -1,4 +1,6 @@
+ testing
 
+ main
 package ru.netology.service;
 
 public class CashbackHackService {
