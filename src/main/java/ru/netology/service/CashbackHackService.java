@@ -1,4 +1,3 @@
-
 package ru.netology.service;
 
 public class CashbackHackService {
@@ -8,3 +7,4 @@ public class CashbackHackService {
         return boundary - amount % boundary;
     }
 }
+
